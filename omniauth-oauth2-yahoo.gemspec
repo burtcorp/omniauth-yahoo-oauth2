@@ -5,15 +5,15 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.1'
   gem.add_development_dependency 'bundler', '~> 2'
 
-  gem.authors       = ['Amir Manji']
-  gem.email         = ['amanji75@gmail.com']
+  gem.authors       = ['Kristoffer Ek', 'Josef Ngo', 'Sten Larsson']
+  gem.email         = ['kristoffer.ek@burtcorp.com', 'josef.ngo@burtcorp.com', 'sten@burtcorp.com']
   gem.description   = 'A Yahoo OAuth2 strategy for OmniAuth.'
   gem.summary       = gem.description
-  gem.homepage      = 'https://github.com/amirmanji/omniauth-yahoo-oauth2'
+  gem.homepage      = 'https://github.com/burtcorp/omniauth-yahoo-oauth2'
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split("\n")
-  gem.name          = 'omniauth-yahoo-oauth2'
+  gem.name          = 'omniauth-oauth2-yahoo'
   gem.require_paths = ['lib']
   gem.version       = OmniAuth::YahooOauth2::VERSION
 end
